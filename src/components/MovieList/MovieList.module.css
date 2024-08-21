@@ -1,0 +1,30 @@
+
+
+.list{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.filmWrapper{
+ background-color: rgb(114, 114, 158);
+ border-radius: 10px;
+ overflow: hidden;
+}
+.filmName{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+   
+}
+.movieTitle{
+    max-width:250px;
+    text-align: center;
+    margin: 20px auto;
+}
+.placeholder{
+    max-width: 300px;
+    padding: 50px;
+}

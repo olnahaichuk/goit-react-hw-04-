@@ -1,0 +1,9 @@
+.trendingTitle{
+    font-family: 'Times New Roman', Times, serif;
+        padding: 20px;
+       margin: 0 auto;
+       max-width: 300px;
+        font-size: 30px;
+        border: 1px solid black;
+        border-radius: 8px;
+}

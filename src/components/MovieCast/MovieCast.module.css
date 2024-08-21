@@ -1,0 +1,31 @@
+.castTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.castList {
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.listElem {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    flex: 1 1 calc(50% - 50px);
+    background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}

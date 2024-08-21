@@ -1,0 +1,88 @@
+.container{
+    padding: 20px;
+    max-width: 1020px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+
+.containerMovie{
+display: flex;
+    gap: 10px;
+    max-width: 1020px;
+    background-color: rgb(114, 114, 158);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 0 auto;
+   
+}
+.btnGoBack{
+    display: block;
+    padding: 20px;
+        font-size: 18px;
+        border: 1px solid black;
+        text-decoration: none;
+        border-radius: 8px;
+        background-color: transparent;
+        color: inherit;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all 0.3s;
+        margin-bottom: 20px;
+        
+}
+.btnGoBack:hover,
+.btnGoBack:focus{
+    background-color: black;
+        color: #fff;
+}
+.poster{
+    width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       
+}
+
+.movieTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
+.infoName{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.listInfo {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+ .listElem{
+    margin: 0 15px;
+}
+
+.listElem a {
+    text-decoration: none;
+    display: inline-flex;
+        padding: 20px;
+        font-size: 18px;
+        border: 1px solid black;
+        text-decoration: none;
+        border-radius: 8px;
+        background-color: transparent;
+        color: inherit;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all 0.3s;
+}
+
+.listElem a:hover,
+.listElem a:focus{
+    background-color: black;
+        color: #fff;
+}
